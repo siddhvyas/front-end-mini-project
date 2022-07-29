@@ -22,7 +22,7 @@ document.onreadystatechange = function () {
 }
 
 function likeProperty(source){
-    if (source.src == 'http://127.0.0.1:5500/img/favorite_border_black_24dp.svg'){
+    if (source.src == 'img/favorite_border_black_24dp.svg'){
         source.src = 'img/favorite_black_24dp.svg';
     }
     else{
