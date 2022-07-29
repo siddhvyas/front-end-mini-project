@@ -22,14 +22,13 @@ document.onreadystatechange = function () {
 }
 
 function likeProperty(source){
-    if (source.id == 'heart'){
+    if (source.src == 'https://siddhvyas.github.io/front-end-mini-project/img/favorite_border_black_24dp.svg'){
         source.src = 'img/favorite_black_24dp.svg';
-        source.id = 'heart-filled';
     }
     else{
         source.src = 'img/favorite_border_black_24dp.svg';
-        source.id = 'heart';
     }
+    console.log(source)
 }
 
 function showInfo(source){
