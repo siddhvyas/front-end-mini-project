@@ -22,12 +22,13 @@ document.onreadystatechange = function () {
 }
 
 function likeProperty(source){
-    console.log(source.src)
-    if (source.src == 'img/favorite_border_black_24dp.svg'){
+    if (source.id == 'heart'){
         source.src = 'img/favorite_black_24dp.svg';
+        source.id = 'heart-filled';
     }
     else{
         source.src = 'img/favorite_border_black_24dp.svg';
+        source.id = 'heart';
     }
 }
 
